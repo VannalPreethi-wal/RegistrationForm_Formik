@@ -1,0 +1,50 @@
+.error {
+    color: red;
+}
+label {
+    color: blue;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.field {
+    padding: 12px 20px;
+    margin: 8px ;
+    box-sizing: border-box;
+}
+.textarea {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    color: white;
+    background-color: green;
+    border-style: none;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+}
+.form {
+    border: 2px green solid;
+    width: 350px;
+}
+.heading {
+    text-align: center;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.required:after {
+    content: "*";
+    color: red;
+}
