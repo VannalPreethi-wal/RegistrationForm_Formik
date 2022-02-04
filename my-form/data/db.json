@@ -1,0 +1,23 @@
+{
+  "customers": [
+    {
+      "customerName": " deepaika",
+      "gender": "Female",
+      "phoneNum": "1234567890",
+      "id": 4
+    },
+    {
+      "customerName": "ganesh",
+      "gender": "Female",
+      "phoneNum": "1234567890",
+      "id": 6
+    },
+    {
+      "customerName": "pree",
+      "gender": "Female",
+      "email": "",
+      "phoneNum": "1234569012",
+      "id": 7
+    }
+  ]
+}

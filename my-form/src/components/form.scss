@@ -16,7 +16,7 @@ label {
     margin-top: 10px;
 }
 
-button {
+.Button {
     color: white;
     background-color: green;
     border-style: none;
@@ -24,6 +24,7 @@ button {
     height: 30px;
     margin-top: 10px;
     margin-bottom: 5px;
+    text-align: center;
 }
 .forms {
     display: flex;
@@ -47,4 +48,17 @@ button {
 .required:after {
     content: "*";
     color: red;
+}
+.edit-option {
+    font-size: 14px;
+    line-height: normal;
+    border-radius: 3px;
+    background-color: lightgreen;
+    margin-right: 10px;
+    top: 1px;
+    position: relative;
+    color: white;
+    padding: 7px 10px;
+    border-style: none;
+    text-decoration: none;
 }

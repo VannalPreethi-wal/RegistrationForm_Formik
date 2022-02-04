@@ -4,10 +4,14 @@ import Radio from './Radio';
 import Select from './Select';
 import DatePicker from './DatePicker';
 import Textarea from './Textarea';
+import CustomerForm from './CustomerForm';
 import * as Yup from 'yup';
 import './form.css';
 
 const SimpleForm = () => {
+    const handleCustomer = () => {
+        <CustomerForm/>
+    }
     return (
         <>
             <h2 className="heading">Registration Form</h2>

@@ -1,10 +1,11 @@
 import {Field, ErrorMessage} from 'formik';
+import { FormGroup } from 'reactstrap';
 import Error from './Error';
-import './form.css';
+
 
 const Radio = ({label,name}) => {
     return (  
-        <div>
+        <FormGroup>
             <label className="required">{label}</label>
             <label>
                 <Field type="radio" name={name} value="Male"/>
@@ -15,7 +16,7 @@ const Radio = ({label,name}) => {
                 Female
             </label>
             <ErrorMessage name={name} component={Error}/>
-        </div>
+        </FormGroup>
     )
 }
 export default Radio;
